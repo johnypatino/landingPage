@@ -2,11 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    
-    
-
-    
-    
+    min-width: 800px;
 }
 .outline {
     height: 400px;
