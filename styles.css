@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     margin: 0;
     
+    
 
     
     
@@ -15,6 +16,7 @@ body{
     color:aliceblue;
     display: flex;
     flex-direction: column;
+    
 
 
     
@@ -34,7 +36,7 @@ body{
     flex:2;
     justify-content: flex-end;
     margin-right: 10%;
-    min-width: 600px;  
+    width: 600px;
 }
 
 #a-content {
@@ -44,20 +46,41 @@ body{
 }
 #a-left {
     flex:1;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    gap: 10px;
+    
+}
+#a-left1 {
+    font-size: 35px;
+    font-weight: bold;
+}
+#a-left2 {
+    font-size: 20px;
+}
+#a-left button {
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: aliceblue;
+    color:#E5E7eb;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
 }
 #a-right {
+
     display: flex;
     flex:1;
+    
     margin-right: 15%;
     justify-content: flex-end;
-    
-    
-
 }
 #a-right div{
-    
     text-align: center;
-    width: 300px;
+    
+   width: 300px;
     height: 150px;
     border-style: solid;
     background-color: aliceblue;
