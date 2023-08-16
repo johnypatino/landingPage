@@ -12,7 +12,61 @@ body{
 }
 #a {
     background-color: #1F2937 ;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+
+
     
+}
+#header {
+    display: flex;
+    height: 100px;
+    padding: 20px;
+    
+}
+#header-left {
+    flex:1.5;
+}
+#header-right {
+    display: flex;
+    gap: 15px;
+    flex:2;
+    justify-content: flex-end;
+    margin-right: 10%;
+    min-width: 600px;  
+}
+
+#a-content {
+    margin-top: 20px;
+    display: flex;
+    
+}
+#a-left {
+    flex:1;
+}
+#a-right {
+    display: flex;
+    flex:1;
+    margin-right: 15%;
+    justify-content: flex-end;
+    
+    
+
+}
+#a-right div{
+    
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    background-color: aliceblue;
+    opacity: 50%;
+}
+#a-right div p {
+    margin-top: 40px;
+    opacity: 100%;
+    color:#1F2937
 }
 #b {
     height: 400px;
