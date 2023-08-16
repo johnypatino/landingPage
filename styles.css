@@ -8,22 +8,41 @@ body{
     
 }
 .outline {
-    height: 300px;
+    height: 500px;
 }
 #a {
     background-color: #1F2937 ;
     
 }
 #b {
-
+    height: 400px;
 }
+
+
 #c {
     background-color: #E5E7eb; 
-
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 400px;
 }
+#c-para {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    min-width: 435px;
+    
+}
+#c-para div {
+    text-align: end;
+    
+    
+}
+
 #d {
     display: flex;
     flex-direction: column;
+    height: 300px;
    
 }
 #d-top {
@@ -46,6 +65,17 @@ body{
 #d-signup-right {
     flex:1;
     height: 100%;
+    text-align: center;
+}
+#d-signup-right button {
+    margin-top: 40px;
+    background-color: #3882f6;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 70px;
 }
 #d-signup-left {
     flex:2;
