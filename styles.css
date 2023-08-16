@@ -7,7 +7,7 @@ body{
     
     
 }
-body div {
+.outline {
     height: 300px;
 }
 #a {
@@ -27,7 +27,35 @@ body div {
    
 }
 #d-top {
+    
     height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+#d-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 60px;
+    background-color: #3882f6;
+    
+}
+#d-signup-right {
+    flex:1;
+    height: 100%;
+}
+#d-signup-left {
+    flex:2;
+    height:100%;
+    justify-content: center;
+}
+#d-signup-left p {
+    padding-top: 10px;;
+    margin-left: 20%;
+    color:aliceblue;
 }
 #copyright {
     background-color: #1F2937 ;
