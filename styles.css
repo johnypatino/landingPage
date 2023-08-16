@@ -8,7 +8,7 @@ body{
     
 }
 .outline {
-    height: 500px;
+    height: 400px;
 }
 #a {
     background-color: #1F2937 ;
@@ -16,6 +16,30 @@ body{
 }
 #b {
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#b p {
+    font-size: 25px;
+    margin-bottom: 70px;
+}
+#b-squares {
+    display: flex;
+    gap: 50px;
+    
+}
+.square div {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    max-width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #1F2937;
+    border-width: 3px;
 }
 
 
