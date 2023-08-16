@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+
+    
+    
+}
+body div {
+    height: 300px;
+}
+#a {
+    background-color: #1F2937 ;
+    
+}
+#b {
+
+}
+#c {
+    background-color: #E5E7eb; 
+
+}
+#d {
+    display: flex;
+    flex-direction: column;
+   
+}
+#d-top {
+    height: 250px;
+}
+#copyright {
+    background-color: #1F2937 ;
+    height: 20px;
+    color:aliceblue;
+    text-align: center;
+    padding: 20px;
+    
+}
